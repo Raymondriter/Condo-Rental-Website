@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" style="background-color: #1c4478">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-3" style="background-color: #1c4478">
             <div class="container">
                 <a class="navbar-brand" style="color: #a0c43b" asp-controller="Home" asp-action="Index">Myrtle Beach Brigadune 7C</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <button class="navbar-toggler" type="button" style="color: white"  data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -40,9 +40,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer" style="background-color: #1c4478">
         <div class="container">
-            &copy; 2020 - Myrtle Beach - Brigadune 7C - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <text style="color: #a0c43b">&copy; 2020 - Myrtle Beach - Brigadune 7C - </text><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
